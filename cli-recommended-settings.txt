@@ -1,0 +1,89 @@
+# ========== GIVES YOU A GREEN CAT ==========
+
+# Specify shuffle settings
+shuffle_setting_clip = "None"  # Options: "None", "MLP", "Layer", "Attn", "Ident"
+shuffle_setting_t5 = "MLP"     # Options: "None", "MLP", "Layer", "Attn", "Ident"
+shuffle_setting_flux_single = "Attn"  # Options: "None", "MLP", "Layer", "Ident"
+shuffle_setting_flux_double = "None"  # Options: "None", "Layer", "Attn", "AttnAdd", "Ident", "F", "FF"
+
+#5,6,7 = lol interesting! flux doyble
+# Specify layers to shuffle for each model, if not 'None'
+layer_range_clip = [2, 3, 4] # 0-11
+layer_range_t5 = [2, 3, 4] # 1-23
+layer_range_flux_single = [13, 14] # 0-37
+layer_range_flux_double = [2, 3, 4] # 0-18
+
+
+# ========== GIVES YOU DISTOR-FREAKSTARE GLITCH-CAT ==========
+
+# Specify shuffle settings
+shuffle_setting_clip = "None"  # Options: "None", "MLP", "Layer", "Attn", "Ident"
+shuffle_setting_t5 = "None"     # Options: "None", "MLP", "Layer", "Attn", "Ident"
+shuffle_setting_flux_single = "MLP"  # Options: "None", "MLP", "Layer", "Ident"
+shuffle_setting_flux_double = "Attn"  # Options: "None", "Layer", "Attn", "AttnAdd", "Ident", "F", "FF"
+
+# Specify layers to shuffle for each model, if not 'None'
+layer_range_clip = [2, 3, 4] # 0-11
+layer_range_t5 = [2, 3, 4] # 1-23
+layer_range_flux_single = [13, 14] # 0-37
+layer_range_flux_double = [5, 6, 7] # 0-18
+
+
+# ========== GIVES YOU A BEADED, UH... CRITTER. ==========
+
+# Specify shuffle settings
+shuffle_setting_clip = "None"  # Options: "None", "MLP", "Layer", "Attn", "Ident"
+shuffle_setting_t5 = "MLP"     # Options: "None", "MLP", "Layer", "Attn", "Ident"
+shuffle_setting_flux_single = "MLP"  # Options: "None", "MLP", "Layer", "Ident"
+shuffle_setting_flux_double = "Attn"  # Options: "None", "Layer", "Attn", "AttnAdd", "Ident", "F", "FF"
+
+# Specify layers to shuffle for each model, if not 'None'
+layer_range_clip = [2, 3, 4] # 0-11
+layer_range_t5 = [2, 3, 4] # 1-23
+layer_range_flux_single = [13, 14] # 0-37
+layer_range_flux_double = [5, 6, 7] # 0-18
+
+
+# ========== PIXEL (or more like) PATCH ART CAT! ==========
+
+# Specify shuffle settings
+shuffle_setting_clip = "None"  # Options: "None", "MLP", "Layer", "Attn", "Ident"
+shuffle_setting_t5 = "None"     # Options: "None", "MLP", "Layer", "Attn", "Ident"
+shuffle_setting_flux_single = "None"  # Options: "None", "MLP", "Layer", "Ident"
+shuffle_setting_flux_double = "Attn"  # Options: "None", "Layer", "Attn", "AttnAdd", "Ident", "F", "FF"
+
+# Specify layers to shuffle for each model, if not 'None'
+layer_range_clip = [2, 3, 4] # 0-11
+layer_range_t5 = [2, 3, 4] # 1-23
+layer_range_flux_single = [2, 3, 4] # 0-37
+layer_range_flux_double = [2, 3, 4] # 0-18
+
+
+# ========== IS IT A TREE? IS IT A CAT? ==========
+
+# Specify shuffle settings
+shuffle_setting_clip = "MLP"  # Options: "None", "MLP", "Layer", "Attn", "Ident"
+shuffle_setting_t5 = "MLP"     # Options: "None", "MLP", "Layer", "Attn", "Ident"
+shuffle_setting_flux_single = "MLP"  # Options: "None", "MLP", "Layer", "Ident"
+shuffle_setting_flux_double = "Attn"  # Options: "None", "Layer", "Attn", "AttnAdd", "Ident", "F", "FF"
+
+# Specify layers to shuffle for each model, if not 'None'
+layer_range_clip = [2, 3, 4] # 0-11
+layer_range_t5 = [2, 3, 4] # 1-23
+layer_range_flux_single = [13, 14] # 0-37
+layer_range_flux_double = [5, 6, 7] # 0-18
+
+
+# ========== CAT turned into RDR2 scene. ==========
+
+# Specify shuffle settings
+shuffle_setting_clip = "None"  # Options: "None", "MLP", "Layer", "Attn", "Ident"
+shuffle_setting_t5 = "MLP"     # Options: "None", "MLP", "Layer", "Attn", "Ident"
+shuffle_setting_flux_single = "None"  # Options: "None", "MLP", "Layer", "Ident"
+shuffle_setting_flux_double = "Attn"  # Options: "None", "Layer", "Attn", "AttnAdd", "Ident", "F", "FF"
+
+# Specify layers to shuffle for each model, if not 'None'
+layer_range_clip = [2, 3, 4] # 0-11
+layer_range_t5 = [4, 5, 6] # 1-23
+layer_range_flux_single = [13, 14] # 0-37
+layer_range_flux_double = [5, 6, 7] # 0-18
