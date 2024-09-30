@@ -4,7 +4,7 @@
 - V2: Add "skip" (whole) layers in single / double blocks
 - Separate folder to avoid conflicts with existing workflows 
 - Right click -> "repair node" if using existing v1 workflows with this
-- User reported: For mobile / portable ComfyUI, copy content of my ComfyUI* folder (i.e. both .py files) to `ComfyUI/custom_nodes` directly.
+- ⚠️ User reported: For mobile / portable ComfyUI, copy content of my ComfyUI* folder (i.e. both .py files) to `ComfyUI/custom_nodes` directly.✅
 - Example of skipping `5` vs. `a third` of total (center) layers in single + double blocks:
 
 ![a-few-vs-a-third](https://github.com/user-attachments/assets/7493e446-f4f5-4868-8d64-03c090f7e9b8)
