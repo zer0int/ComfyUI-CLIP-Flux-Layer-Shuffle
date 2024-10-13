@@ -76,7 +76,7 @@ class CLIPshuffleLayersNode(CLIPshuffleBase):
 
     RETURN_TYPES = ("CLIP",)
     FUNCTION = "shuffle_clip_t5"
-    CATEGORY = "CLIP-Flux-Shuffle"
+    CATEGORY = "zer0int/CLIP-Flux-Shuffle"
 
     def shuffle_clip_t5(self, clip, shuffle_setting_clip_attn, clip_attn_layers, shuffle_setting_clip_mlp, clip_mlp_layers, shuffle_setting_t5_attn, t5_attn_layers, shuffle_setting_t5_mlp, t5_mlp_layers):
         # Unwrap the CLIP and T5XXL models from the clip object
@@ -176,7 +176,7 @@ class ShuffleFluxLayersNode(FluxShuffleBase):
                 "sinmod_layers": ("STRING", {"default": ""}),                
             }
         }
-    CATEGORY = "CLIP-Flux-Shuffle"
+    CATEGORY = "zer0int/CLIP-Flux-Shuffle"
     RETURN_TYPES = ("MODEL",)
     FUNCTION = "shuffle_and_apply"
    
