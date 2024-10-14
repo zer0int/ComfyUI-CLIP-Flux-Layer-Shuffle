@@ -1,5 +1,18 @@
 # Nodes for messing with a model's layers in ComfyUI.
 ## For CLIP, T5, and Flux! ❗🤖🔀🤖❓
+------
+### Update 14/OKT/2024: 🥳🎉
+- V3: Finally fixed memory issue: All nodes are now also model loader nodes.
+- V3: By default, restores the shuffled models from file = no extra RAM required!
+- V3: You can now select `load_from_file = False` to create a model deepcopy
+- V3: Model deepcopy in RAM = faster, but (for Flux) requires ~50 GB RAM (!)
+
+![image](https://github.com/user-attachments/assets/6fb26ff1-69fc-4714-8f33-f31b078b16d4)
+
+
+------
+## DEPRECATED:
+------
 ### Update 30/SEP/2024:
 - V2: Add "skip" (whole) layers in single / double blocks
 - Separate folder to avoid conflicts with existing workflows 
