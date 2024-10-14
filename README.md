@@ -9,6 +9,9 @@
 
 ![image](https://github.com/user-attachments/assets/6fb26ff1-69fc-4714-8f33-f31b078b16d4)
 
+- Bonus: Workflow for Flux (this) + [GPT-2 Shuffle](https://github.com/zer0int/ComfyUI-GPT2-Layer-Shuffle-Prompting) nodes: Welcome to Madhouse.
+
+![gpt2-flux-welcome-to-madhouse](https://github.com/user-attachments/assets/5eaed064-3d5d-4685-8a53-174ce7272df5)
 
 ------
 ## DEPRECATED:
