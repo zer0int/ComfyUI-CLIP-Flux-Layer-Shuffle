@@ -140,7 +140,7 @@ class CLIPshuffleLayersNode(CLIPshuffleBase):
 
     RETURN_TYPES = ("CLIP",)
     FUNCTION = "shuffle_clip_t5"
-    CATEGORY = "CLIP-Flux-Shuffle"
+    CATEGORY = "zer0int/CLIP-Flux-Shuffle"
 
     def shuffle_clip_t5(self, clip_name1, clip_name2, model_type, load_from_file, shuffle_setting_clip_attn, clip_attn_layers, shuffle_setting_clip_mlp, clip_mlp_layers, shuffle_setting_t5_attn, t5_attn_layers, shuffle_setting_t5_mlp, t5_mlp_layers):
         # Determine if we are loading from file or from memory
